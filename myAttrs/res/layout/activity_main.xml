@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ToolBar="http://schemas.android.com/apk/res/com.example.myattrs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myrl"
+  >
+
+    <com.example.myattrs.myView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ToolBar:myname="zhangtiancheng"
+        ToolBar:namesize="30"
+        />
+
+</RelativeLayout>
